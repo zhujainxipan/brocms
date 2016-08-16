@@ -1,0 +1,1 @@
+<?php {"pri":"id","0":"webname","1":"url","2":"logo","3":"rname","4":"email","5":"dtime","6":"msg","7":"list","8":"audit","9":"ord"}yes

@@ -1,0 +1,123 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	color:#777;
+	font:12px Verdana,Arial,Tahoma;
+	text-align:center;
+	background:#fff;
+}
+img {
+	border:none;
+}
+
+a:link, a:visited {
+	text-decoration : none;
+	color:#888;
+	}
+
+a:hover {                   
+	text-decoration : none;
+	color:#C44;
+	}
+
+
+a:active {
+	text-decoration : underline;
+	color:#85A484;
+}
+ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+form {
+	margin:0px;
+	padding:0px;
+}
+input,select,button{
+	font:12px Verdana,Arial,Tahoma;
+	vertical-align:middle;
+	height:18px;
+}
+.button {
+	border:1px solid #B6B3AF;
+	padding:1px 4px;
+	cursor:pointer;
+	background:url(../images/buttonface.gif) repeat-x;
+}
+/* 首页图片播放器 */
+
+.pwSlide {
+	width:350px;
+	position:relative;
+	height:212px;
+	overflow:hidden;
+	border:1px solid #e0e0e0;
+}
+.pwSlide img {
+	height:212px;
+	width:348px;
+}
+.pwSlide-bg {
+	width:348px;
+	z-index:1;
+	position:absolute;
+	bottom:0px;
+	background:#000;
+	left:0px;
+	right:0px;
+	height:23px;
+	overflow:hidden;
+	filter:alpha(opacity=39);-moz-opacity:0.39;opacity:0.39;
+}
+.pwSlide h3 {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-weight:100;
+	color:#fff;
+	line-height:23px;
+	padding:0 8px;
+	position:absolute;
+	bottom:1px;
+	z-index:2;
+	width:348px;
+	cursor:pointer;
+	left:0;
+}
+.pwSlide a:hover {
+	text-decoration:none;
+}
+.pwSlide ul {
+	position:absolute;
+	right:8px;
+	bottom:5px;
+	z-index:3;
+}
+.pwSlide ul li {
+	list-style:none;
+	float:left;
+	width:18px;
+	height:13px;
+	line-height:13px;
+	text-align:center;
+	margin-left:2px;
+	background:#ffffff;
+}
+.pwSlide ul li a {
+	display:block;
+	width:18px;
+	height:13px;
+	font-size:10px;
+	font-family:Tahoma;
+	color:#333333;
+}
+.pwSlide ul li a:hover,.pwSlide ul li a.sel {
+	color:#fff;
+	background:#ffa900;
+}
+
+#noti {
+	float:left;
+	width:100%;
+}

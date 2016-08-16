@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<input name="title" type="notnull" msg="幻灯标题不能为空！" />
+	<input name="picid" type="notnull" msg="幻灯图片必须使用！" />
+</form>	

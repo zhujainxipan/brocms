@@ -1,0 +1,1 @@
+<?php {"pri":"id","0":"gid","1":"username","2":"userpwd","3":"email","4":"regtime","5":"sex","6":"info","7":"upic","8":"disable","9":"views"}yes

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<input name="groupname" type="notnull"  msg="用户组名称不能为空！" />
+	<input name="groupname" type="unique"  action="add" msg="用户组名称已经存在，换一个吧！" />
+	<input name="description" type="notnull"  msg="对用户组的描述不能为空！" />
+</form>	

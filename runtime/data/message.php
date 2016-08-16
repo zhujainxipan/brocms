@@ -1,0 +1,1 @@
+<?php {"pri":"id","0":"title","1":"uid","2":"revicename","3":"ptime","4":"content","5":"stutas"}yes
