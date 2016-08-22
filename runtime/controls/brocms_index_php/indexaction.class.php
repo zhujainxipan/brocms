@@ -2,7 +2,6 @@
 	class IndexAction extends Common {
 		function index(){
 			if(!$this->isCached()) {
-			
 				//将网站名称分配到模板中，在标题栏中显示
 				$this->assign("appname", APP_NAME);
 				$this->assign("keywords", KEYWORD);

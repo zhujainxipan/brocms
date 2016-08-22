@@ -1,4 +1,5 @@
 <{ include file="public/header.tpl" }>
+<div>测试333</div>
 <{if $ncount gt 0}>
 <div id="noti"><marquee scrollamount=<{$ncount}>  width="100%" onMouseOver=stop() onMouseOut=start()>
 	<{section loop=$notice name="nls"}>

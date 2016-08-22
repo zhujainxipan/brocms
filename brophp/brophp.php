@@ -142,10 +142,8 @@
 	//控制器类的创建
 	if(file_exists($srccontrolerfile)){
 		Structure::commoncontroler(APP_PATH."controls/",$controlerpath);
-		Structure::controler($srccontrolerfile, $controlerpath, $_GET["m"]); 
-
+		Structure::controler($srccontrolerfile, $controlerpath, $_GET["m"]);
 		$className=ucfirst($_GET["m"])."Action";
-		
 		$controler=new $className();
 		$controler->run();
 

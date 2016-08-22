@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2016-08-16 10:29:15
+<?php /* Smarty version Smarty-3.1.8, created on 2016-08-16 14:37:13
          compiled from "./home/views/default/index/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:115284217257b27a7b979978-22250082%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '05f4bb54bbcefdec46ae4480c118c34040901f7b' => 
     array (
       0 => './home/views/default/index/index.tpl',
-      1 => 1318823912,
+      1 => 1471329419,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_57b27a7bbe8f67_78823186',
   'variables' => 
   array (
     'ncount' => 0,
@@ -31,12 +33,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'links' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_57b27a7bbe8f67_78823186',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57b27a7bbe8f67_78823186')) {function content_57b27a7bbe8f67_78823186($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/Users/annuoaichengzhang/developspace/phpdev/brocms/brophp/libs/plugins/modifier.truncate.php';
 ?><?php echo $_smarty_tpl->getSubTemplate ("public/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
+<div>测试333</div>
 <?php if ($_smarty_tpl->tpl_vars['ncount']->value>0){?>
 <div id="noti"><marquee scrollamount=<?php echo $_smarty_tpl->tpl_vars['ncount']->value;?>
   width="100%" onMouseOver=stop() onMouseOut=start()>
